@@ -1,0 +1,37 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{   
+ 
+ 
+ int n,t;
+ cin>>n>>t;
+ string s ,s2;
+ cin>>s;
+ 
+while(t--)  
+{
+  for(int i=n;i>0;i--){
+         if(s[i-1]=='B' && s[i]=='G'){
+             
+       swap(s[i],s[i-1]);
+	   i--;
+	      
+    }
+        
+   }
+ 
+	
+}
+ 
+ 
+ 
+  cout<<s;
+ 
+ 
+ 
+	
+ 
+	
+	return 0;
+}
