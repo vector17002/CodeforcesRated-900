@@ -1,0 +1,26 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{   
+	long long n;
+	int  k,w;
+	cin>>k>>n>>w;
+	long long ans=0;
+	for(int i=1;i<=w;i++)
+    {
+		ans+=k*i;
+	}
+	if(ans>=n)
+	{
+		ans=ans-n;
+	}
+	else
+	ans=0;
+	cout<<ans;
+	
+ 
+	
+ 
+	
+	return 0;
+}
